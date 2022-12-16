@@ -1,0 +1,208 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Bagath Singh - Tribute page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif&family=Playfair+Display:ital@1&family=Roboto+Mono&family=Special+Elite&family=Zilla+Slab&display=swap');
+    html {
+        font-family: Noto Serif, serif;
+        font-size: 10px;
+        font-weight: 150;
+        color: black;
+        background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4NjUwODQ3LWltYWdlLWpvYjYzMC1hXzIuanBn.jpg);
+    }
+    
+    body {
+        font-size: 1.6rem;
+        margin: 0 auto;
+        width: 70vw;
+        text-align: center;
+    }
+    
+    @media (max-width: 768px) {
+        body {
+            width: 100vw;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+        body {
+            max-width: 700px;
+        }
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    h1 {
+        font-family: Noto Sans JP, sans-serif;
+        font-size: 4rem;
+        color: black;
+    }
+    
+    .subtitle {
+        font-family: Noto Sans JP, sans-serif;
+        font-size: 2rem;
+        color: black;
+    }
+    
+    h2 {
+        font-family: Noto Sans JP, sans-serif;
+        font-size: 2.8rem;
+        margin: 50px 0 25px 0;
+        text-align: center;
+    }
+    
+    h3 {
+        font-family: Noto Sans JP, sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 40px 0 5px 0;
+        color: black;
+    }
+    
+    section {
+        text-align: left;
+    }
+    
+    #image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 25px;
+    }
+    
+    #img-caption {
+        font-family: Noto Sans JP, sans-serif;
+        margin-top: 20px;
+    }
+    
+    blockquote {
+        font-family: Special Elite, sans-serif;
+        font-size: 2.25rem;
+        background-color: ghostwhite;
+        margin: 30px 3% 0 3%;
+        padding: 10px 0% 20px 0%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 25px;
+        background: url(https://i.pinimg.com/originals/10/f9/44/10f944389ace361ae00a3fc6b7b16e9e.jpg)
+    }
+    
+    cite {
+        font-family: Noto Sans JP, sans-serif;
+        font-size: 1.6rem;
+    }
+    
+    .source-image {
+        width: 200px;
+        height: 100px;
+        border-radius: 15px;
+        background-color: white;
+        margin: 0 10px 50px 10px;
+    }
+    
+    .lift-animation {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.322);
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        margin-bottom: 30px;
+    }
+    
+    .lift-animation::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        box-shadow: 0 15px 15px rgba(0, 0, 0, 0.322);
+        opacity: 0;
+        -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    
+    .lift-animation:hover {
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.377);
+        -webkit-transform: scale(1.03, 1.03);
+        transform: scale(1.03, 1.03);
+    }
+    
+    .lift-animation:hover::after {
+        opacity: 1;
+    }
+</style>
+
+<body>
+    <main id="main">
+        <header>
+            <h1 id="title">Bagath Singh</h1>
+        </header>
+        <p class="subtitle">A Legendry Fighter</p>
+        <figure id="img-div">
+            <a href="https://images.livemint.com/rf/Image-621x414/LiveMint/Period1/2016/01/09/Photos/bhagatsinghht-kUjE--621x414@LiveMint.jpg" target="_blank">
+                <img class="lift-animation" id="image" src="https://images.livemint.com/rf/Image-621x414/LiveMint/Period1/2016/01/09/Photos/bhagatsinghht-kUjE--621x414@LiveMint.jpg" /></a>
+            <figcaption id="img-caption">Photograph of Bagath Singh, Punjab, 1922</figcaption>
+        </figure>
+        <section id="tribute-info">
+            <h2>A brief summary of Bagath Singh's journey</h2>
+            <h3>Early life</h3>
+            <p>
+                Bhagat Singh was born on 27 September 1907[a] in the village of Banga in the Lyallpur district of the Punjab in what was then British India and is today Pakistan; he was the second of seven children—four sons, and three daughters—born to Vidyavati and
+                her husband Kishan Singh Sandhu.[23] Bhagat Singh's father and his uncle Ajit Singh were active in progressive politics, taking part in the agitation around the Canal Colonization Bill in 1907, and later the Ghadar Movement of 1914–1915.
+            </p>
+            <h3>Gandhi controversy</h3>
+            <p>
+                There have been suggestions that Gandhi had an opportunity to stop Singh's execution but refrained from doing so. Another theory is that Gandhi actively conspired with the British to have Singh executed. In contrast, Gandhi's supporters argue that he
+                did not have enough influence with the British to stop the execution, much less arrange it,[81] but claim that he did his best to save Singh's life.[82] They also assert that Singh's role in the independence movement was no threat to Gandhi's
+                role as its leader, so he would have no reason to want him dead.
+            </p>
+            <h3>Hunger strike and Lahore conspiracy case</h3>
+            <p>
+                Singh was re-arrested for murdering Saunders and Chanan Singh based on substantial evidence against him, including statements by his associates, Hans Raj Vohra and Jai Gopal.[47] His life sentence in the Assembly Bomb case was deferred until the Saunders
+                case was decided.[48] He was sent to Central Jail Mianwali from the Delhi jail.[45] There he witnessed discrimination between European and Indian prisoners. He considered himself, along with others, to be a political prisoner. He noted
+                that he had received an enhanced diet at Delhi which was not being provided at Mianwali. He led other Indian, self-identified political prisoners he felt were being treated as common criminals in a hunger strike.
+
+
+            </p>
+
+
+            </p>
+            <h3>Delhi Assembly bombing and arrest</h3>
+            <p>
+                For some time, Bhagat Singh had been exploiting the power of drama as a means to inspire the revolt against the British, purchasing a magic lantern to show slides that enlivened his talks about revolutionaries such as Ram Prasad Bismil who had died as
+                a result of the Kakori conspiracy. In 1929, he proposed a dramatic act to the HSRA intended to gain massive publicity for their aims.[26] Influenced by Auguste Vaillant, a French anarchist who had bombed the Chamber of Deputies in Paris,[40]
+                Singh's plan was to explode a bomb inside the Central Legislative Assembly. The nominal intention was to protest against the Public Safety Bill, and the Trade Dispute Act, which had been rejected by the Assembly but were being enacted
+                by the Viceroy using his special powers; the actual intention was for the perpetrators to allow themselves to be arrested so that they could use court appearances as a stage to publicise their cause.
+            </p>
+            <h3>Special Tribunal</h3>
+            <p>
+                To speed up the slow trial, the Viceroy, Lord Irwin, declared an emergency on 1 May 1930 and introduced an ordinance to set up a special tribunal composed of three high court judges for the case. This decision cut short the normal process of justice as
+                the only appeal after the tribunal was to the Privy Council located in England.
+            </p>
+            <h3>Appeal to the Privy Council</h3>
+            <p>
+                n Punjab province, a defence committee drew up a plan to appeal to the Privy Council. Singh was initially against the appeal but later agreed to it in the hope that the appeal would popularise the HSRA in Britain. The appellants claimed that the ordinance
+                which created the tribunal was invalid while the government countered that the Viceroy was completely empowered to create such a tribunal. The appeal was dismissed by Judge Viscount Dunedin.
+            </p>
+        </section>
+
+
+        <a href="https://wisdomquotes.com/gandhi-quotes/" target="_blank">
+            <blockquote class="lift-animation" cite="https://tanvi-gadhiya7.medium.com/in-a-gentle-way-you-can-shake-the-world-mahatma-gandhi-he-4de151cbba58">
+                <p>"In a gentle way, you can shake the world."</p>
+                <cite>- Bagath Singh</cite></a>
+        </blockquote>
+    </main>
+    <script>
+    </script>
+
+</body>
+</html
